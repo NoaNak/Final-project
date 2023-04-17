@@ -1,0 +1,78 @@
+*{
+    /* padding: 0; */
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    width: 60%;
+    height: 110vh;
+    margin-left: 20%
+}
+
+.title1{
+    text-align: center;    
+    padding-bottom: 10px;
+    font-family:unset;
+
+}
+
+.title2{
+    text-align: center;
+    padding-bottom: 30px;
+    font-family:sans-serif;
+}
+
+.container{
+    border: 1px solid black;    
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    height: 90%;
+    padding: 20px 100px;
+    margin-left: 10%;
+    /* align-items: center; */
+    /* position: relative; */
+}
+
+.field{
+    width: 100%;
+    padding: 0.9rem 1rem;
+    border: 1px solid grey;
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    transition: .4s; 
+    /* cest pour faire la presention de mon tableau */
+}
+
+button {
+    border-radius: 0px;
+    border: 1px solid grey;
+    background-color: black;
+    color: white;
+    margin-left: 35%;
+    padding: 15px;
+    width: 30%;
+}
+
+button:hover{
+    background-color: black;
+}
+button:hover{ 
+    background-color: grey;
+}
+
+.end{
+    text-align: center;
+    padding: 15px;
+    color: grey;
+}
+
+
+.link{
+    text-decoration: none;
+    color: black;
+
+}
