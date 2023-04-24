@@ -2,38 +2,35 @@
     /* padding: 0; */
     margin: 0;
     box-sizing: border-box;
-    
 }
 
 body{
-    width: 60%;
-    height: 110vh;
-    margin-left: 20%
+    width: 100%;
+    height: 100vh;
 }
 
 .title1{
     text-align: center;    
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     font-family:unset;
-
 }
 
 .title2{
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     font-family:sans-serif;
 }
 
 .container{
     border: 1px solid black;    
     display: flex;
+    flex-direction: column; /* Pour que les éléments soient empilés verticalement */
     justify-content: center;
-    width: 75%;
-    height: 90%;
-    padding: 20px 100px;
-    margin-left: 10%;
-    /* align-items: center; */
-    /* position: relative; */
+    width: 90%; /* Utilisez des pourcentages pour que le conteneur s'adapte à la largeur de l'écran */
+    max-width: 600px; /* Définissez une largeur maximale pour éviter que le conteneur ne devienne trop large */
+    margin: 0 auto; /* Pour centrer le conteneur horizontalement */
+    padding: 20px;
+    margin-top: 5%;
 }
 
 .field{
@@ -52,27 +49,32 @@ button {
     border: 1px solid grey;
     background-color: black;
     color: white;
-    margin-left: 35%;
+    margin: 0 auto; /* Pour centrer le bouton */
     padding: 15px;
-    width: 30%;
+    width: 50%;
+    max-width: 200px; /* Définissez une largeur maximale pour éviter que le bouton ne devienne trop large */
+    display: block; /* Pour que le bouton prenne toute la largeur disponible */
 }
 
 button:hover{
-    background-color: black;
-}
-button:hover{ 
     background-color: grey;
 }
 
 .end{
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     color: grey;
 }
-
 
 .link{
     text-decoration: none;
     color: black;
+}
 
+.link2{
+    text-decoration: none;
+    color: black;
+    margin: 0 auto; /* Pour centrer le lien */
+    display: block; /* Pour que le lien prenne toute la largeur disponible */
+    max-width: 200px; /* Définissez une largeur maximale pour éviter que le lien ne devienne trop large */
 }

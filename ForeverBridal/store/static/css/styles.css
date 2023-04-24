@@ -1,18 +1,20 @@
-.title{
+/* default styles */
+.title {
   padding-left: 35%;
 }
 
-section{
+section {
   margin-top: 20px;
 }
 
-.icon-nav1{
-  float:right;
-  margin-right: 40px;    
+.icon-nav1 {
+  float: right;
+  margin-right: 40px;
   text-decoration: none;
   color: black;
   margin-top: 20px;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -31,7 +33,6 @@ section{
   font-weight: bold;
 }
 
-/* navbar */
 .navbar-menu {
   display: flex;
   list-style: none;
@@ -74,6 +75,26 @@ section{
 
 .navbar-icons a:hover {
   color: #f9a825;
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    padding-left: 0;
+  }
+  
+  .navbar {
+    padding: 0 20px;
+    padding-left: 0;
+  }
+  
+  .navbar-menu li {
+    margin-right: 35px;
+  }
+  
+  .navbar-icons a {
+    margin-left: 10px;
+    font-size: 1.2rem;
+  }
 }
 
 /* Font Awesome styles */
@@ -442,6 +463,5 @@ p {
     color: #555;
   }
   
-
 
 
